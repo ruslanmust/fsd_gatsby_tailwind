@@ -1,0 +1,11 @@
+.cart {
+    @apply flex items-center
+}
+
+.cart__img {
+    @apply bg-[url('shared/ui/images/icons/cart.svg')] bg-no-repeat bg-[length:55%_auto] bg-center 
+    w-9 h-9
+    rounded-full 
+    border-solid border-[2px] border-slate-200
+    bg-slate-100
+}

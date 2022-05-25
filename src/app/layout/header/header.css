@@ -1,0 +1,23 @@
+.fixed-container {
+    @apply max-w-7.5xl mx-auto
+}
+
+.top-bar {
+    @apply px-4 font-body py-3
+}
+
+.top-bar__location {
+    @apply text-sm font-light
+}
+
+.top-bar__location-add {
+    @apply font-medium bg-[url('src/shared/ui/images/icons/map-pin.svg')] bg-no-repeat pl-6 bg-contain 
+}
+
+.header__logo-navigation {
+    @apply flex
+}
+
+.logo {
+    @apply font-display font-semibold text-2xl self-center pl-4 mr-16
+}

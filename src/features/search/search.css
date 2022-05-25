@@ -1,0 +1,18 @@
+.header__search--design {
+    @apply flex self-center min-w-[200px] relative
+    bg-[#F1F1F1]/20
+    top-[3px]
+    border-solid border-[1.2px] border-slate-300 rounded-lg 
+}
+.header__search-input { 
+    @apply order-1 bg-transparent
+    focus-visible:outline-none focus:bg-[#f1f1f1]
+    pl-9 py-[0.30rem] 
+    font-display text-base text-[#C4C4C4]
+    min-w-[100%]
+    rounded-lg 
+}
+
+.header__search__img {
+    @apply pl-3 absolute top-[9px]
+}

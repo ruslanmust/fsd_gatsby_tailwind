@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import 'app/fonts/fonts.css';
+
+@layer base {
+  body {
+    @apply bg-slate-50
+  }
+    /* bg-slate-50, bg-[#FBFCFF] */
+}

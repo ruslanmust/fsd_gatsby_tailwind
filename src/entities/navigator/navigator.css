@@ -1,0 +1,20 @@
+.navigation-list {
+    @apply flex 
+    px-4
+    pt-[1.7rem] 
+    pb-6
+    mr-6
+    font-display 
+    text-base  
+    tracking-wide;
+}
+
+.navigation-list__item--bg {
+    @apply pr-10 mr-6 bg-[url('shared/ui/images/icons/chevron.svg')] bg-no-repeat bg-contain 
+
+}
+
+.navigation-list__item--bg {
+    background-position-x: 4.5rem;
+    background-position-y: 0.1rem;
+}
